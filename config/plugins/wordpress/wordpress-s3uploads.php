@@ -19,4 +19,3 @@ if (!empty(getenv('AWS_S3_URL'))) {
 
 // S3 Uploads - Cache will expire after 30 days
 define('S3_UPLOADS_HTTP_CACHE_CONTROL', 30 * 24 * 60 * 60);
-//s3://AKIAIUMCQ2ZMIZ4PLG2Q:ihjU4PrTobcvNZubaL82awfgV6FlaLO+1bnqP01t@s3.eu-west-3.amazonaws.com/creative-concept-solutions
